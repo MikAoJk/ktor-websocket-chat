@@ -17,13 +17,13 @@ A simple chat application that uses WebSockets
 ### Prerequisites
 Make sure you have the Java JDK 17 installed
 You can check which version you have installed using this command:
-``` bash
+```bash script
 java -version
 ```
 
 #### Building the application
 To build locally and run the integration tests you can simply run
-``` bash
+```bash script
 ./gradlew clean build
 ```
 or on windows `gradlew.bat clean build`
@@ -31,7 +31,7 @@ or on windows `gradlew.bat clean build`
 ### Upgrading the gradle wrapper
 Find the newest version of gradle here: https://gradle.org/releases/ Then run this command:
 
-``` bash
+```bash script
 ./gradlew wrapper --gradle-version $gradleVersjon
 ```
 
@@ -46,7 +46,7 @@ Please create an [issue](https://github.com/MikAoJk/ktor-websocket-chat/issues)
 
 To get started, please fork the repo and checkout a new branch. You can then build the library with the Gradle wrapper
 
-```shell script
+```bash script
 ./gradlew build
 ```
 
