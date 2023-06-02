@@ -8,7 +8,7 @@ val junit_version: String by project
 
 plugins {
     kotlin("jvm") version "1.8.21"
-    id("io.ktor.plugin") version "2.3.0"
+    id("io.ktor.plugin") version "2.3.1"
 }
 
 group = "no.kartveit.taule"
@@ -29,6 +29,7 @@ dependencies {
     implementation("io.ktor:ktor-server-websockets-jvm:$ktor_version")
     implementation("io.ktor:ktor-server-netty-jvm:$ktor_version")
     implementation("ch.qos.logback:logback-classic:$logback_version")
+
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
     testImplementation("org.junit.jupiter:junit-jupiter:$junit_version")
 }
