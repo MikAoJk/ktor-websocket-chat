@@ -1,4 +1,4 @@
-package no.kartveit.taule.plugins
+package no.kartveit.taule.server.plugins
 
 import io.ktor.server.routing.*
 import io.ktor.server.response.*

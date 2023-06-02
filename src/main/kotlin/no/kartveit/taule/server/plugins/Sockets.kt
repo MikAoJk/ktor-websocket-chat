@@ -1,4 +1,4 @@
-package no.kartveit.taule.plugins
+package no.kartveit.taule.server.plugins
 
 import no.kartveit.taule.Connection
 import io.ktor.server.websocket.*

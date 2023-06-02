@@ -28,6 +28,11 @@ To build locally and run the integration tests you can simply run
 ```
 or on windows `gradlew.bat clean build`
 
+### Test local with
+```bash script
+./gradlew run -q --console=plain
+```
+
 ### Upgrading the gradle wrapper
 Find the newest version of gradle here: https://gradle.org/releases/ Then run this command:
 

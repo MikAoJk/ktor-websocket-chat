@@ -1,16 +1,9 @@
 package no.kartveit.taule
 
-import io.ktor.server.application.*
-import io.ktor.server.engine.*
-import io.ktor.server.netty.*
-import no.kartveit.taule.plugins.*
+import no.kartveit.taule.client.startClient
+import no.kartveit.taule.server.startEmbeddedServer
 
 fun main() {
-    embeddedServer(Netty, port = 8080, host = "0.0.0.0", module = Application::module)
-        .start(wait = true)
-}
-
-fun Application.module() {
-    configureSockets()
-    configureRouting()
+    startEmbeddedServer()
+    startClient()
 }

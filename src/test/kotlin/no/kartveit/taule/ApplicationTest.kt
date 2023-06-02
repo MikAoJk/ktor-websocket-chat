@@ -4,7 +4,7 @@ import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.server.testing.*
 import io.ktor.http.*
-import no.kartveit.taule.plugins.*
+import no.kartveit.taule.server.plugins.configureRouting
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
