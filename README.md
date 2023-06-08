@@ -33,7 +33,7 @@ Start sever first
 ```bash script
 ./gradlew :ktor-websocket-chat-server:run
 ```
-Then do this command 2 two times to create to clients
+Then do this command two times to create two different clients
 ```bash script
 ./gradlew :ktor-websocket-chat-client:run -q --console=plain
 ```
