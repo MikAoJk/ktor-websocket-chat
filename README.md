@@ -29,8 +29,13 @@ To build locally and run the integration tests you can simply run
 or on windows `gradlew.bat clean build`
 
 ### Test local with
+Start sever first
 ```bash script
-./gradlew run -q --console=plain
+./gradlew :ktor-websocket-chat-server:run
+```
+Then do this command 2 two times to create to clients
+```bash script
+./gradlew :ktor-websocket-chat-client:run -q --console=plain
 ```
 
 ### Upgrading the gradle wrapper
