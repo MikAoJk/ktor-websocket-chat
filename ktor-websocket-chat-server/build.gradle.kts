@@ -2,7 +2,7 @@
 val ktor_version = "2.3.1"
 val kotlin_version = "1.8.21"
 val logback_version = "1.2.11"
-val jvm_version = "17"
+val jvm_version = "21"
 
 plugins {
     id("io.ktor.plugin") version "2.3.1"
