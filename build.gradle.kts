@@ -34,15 +34,12 @@ allprojects {
     tasks {
 
         withType<Wrapper> {
-            gradleVersion = "8.1.1"
-        }
-
-        named<KotlinCompile>("compileTestKotlin") {
-            kotlinOptions.jvmTarget = jvm_version
-        }
-        withType<KotlinCompile> {
-            kotlinOptions.jvmTarget = jvm_version
-        }
+        compileKotlin {
+        kotlinOptions.jvmTarget = javaVersion.toString()
+    }
+        compileTestKotlin {
+        kotlinOptions.jvmTarget = javaVersion.toString()
+    }
 
     }
 
