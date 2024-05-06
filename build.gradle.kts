@@ -33,7 +33,6 @@ allprojects {
 
     tasks {
 
-        withType<Wrapper> {
         compileKotlin {
         kotlinOptions.jvmTarget = jvm_version.toString()
     }
