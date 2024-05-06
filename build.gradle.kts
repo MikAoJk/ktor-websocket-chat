@@ -35,10 +35,10 @@ allprojects {
 
         withType<Wrapper> {
         compileKotlin {
-        kotlinOptions.jvmTarget = javaVersion.toString()
+        kotlinOptions.jvmTarget = jvm_version.toString()
     }
         compileTestKotlin {
-        kotlinOptions.jvmTarget = javaVersion.toString()
+        kotlinOptions.jvmTarget = jvm_version.toString()
     }
 
     }
