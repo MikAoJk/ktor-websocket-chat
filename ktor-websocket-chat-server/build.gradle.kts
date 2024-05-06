@@ -1,13 +1,13 @@
 
-val ktor_version = "2.3.1"
-val kotlin_version = "1.8.21"
+val ktor_version = "2.3.10"
+val kotlin_version = "1.9.23"
 val logback_version = "1.2.11"
 val jvm_version = "21"
 
 plugins {
-    id("io.ktor.plugin") version "2.3.1"
+    id("io.ktor.plugin") version "2.3.10"
     id("application")
-    kotlin("jvm") version "1.8.21"
+    kotlin("jvm") version "1.9.23"
 }
 
 application {
