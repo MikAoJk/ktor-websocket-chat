@@ -7,7 +7,7 @@
 A simple chat application that uses WebSockets
 
 ## Technologies used
-* JDK 17
+* JDK 21
 * Kotlin
 * Gradle
 * Ktor
@@ -15,7 +15,7 @@ A simple chat application that uses WebSockets
 ## Getting started
 
 ### Prerequisites
-Make sure you have the Java JDK 17 installed
+Make sure you have the Java JDK 21 installed
 You can check which version you have installed using this command:
 ```bash script
 java -version
