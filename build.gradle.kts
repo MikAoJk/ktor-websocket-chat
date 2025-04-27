@@ -7,7 +7,7 @@ val jvm_version: String by project
 val junit_version: String by project
 
 plugins {
-    kotlin("jvm") version "1.9.23"
+    kotlin("jvm") version "2.1.20"
 }
 
 repositories {
